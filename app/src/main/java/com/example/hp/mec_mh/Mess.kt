@@ -8,13 +8,14 @@ import android.widget.Button
 class Mess : AppCompatActivity() {
 
     lateinit var log_in:Button
+    lateinit var back2:Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_mess)
-
+        back2 = findViewById(R.id.BACK2)
+        back2.setOnClickListener({
+            this.finish()
+        })
     }
 
-    override fun onCreate(savedInstanceState: Bundle?, persistentState: PersistableBundle?) {
-        super.onCreate(savedInstanceState, persistentState)
-    }
 }
