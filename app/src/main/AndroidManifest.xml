@@ -21,7 +21,9 @@
         <activity android:name=".Contacts" />
         <activity android:name=".Mess" />
         <activity android:name=".SignUp" />
-        <activity android:name=".ProfileEntry"></activity>
+        <activity android:name=".ProfileEntry" />
+        <activity android:name=".ApprovedMess" />
+        <activity android:name=".RejectedMess"></activity>
     </application>
 
 </manifest>
