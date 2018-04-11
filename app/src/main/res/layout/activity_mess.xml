@@ -8,7 +8,7 @@
     tools:context="com.example.hp.mec_mh.Mess">
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/BACK2"
         android:layout_width="49dp"
         android:layout_height="48dp"
         android:layout_marginBottom="8dp"
