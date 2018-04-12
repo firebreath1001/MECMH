@@ -100,7 +100,7 @@
             android:layout_marginTop="8dp"
             android:text="thatemail@gmail"
             android:textColor="@android:color/background_light"
-            android:textSize="18sp"
+            android:textSize="12sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.622"

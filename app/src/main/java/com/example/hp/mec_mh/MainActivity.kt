@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
 
         sign_up.setOnClickListener({
             var inte:Intent
-            inte = Intent(this, ProfileEntry::class.java)
+            inte = Intent(this, SignUp::class.java)
             startActivity(inte)
         })
     }

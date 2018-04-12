@@ -40,6 +40,25 @@
         app:layout_constraintVertical_bias="0.82">
 
 
+        <Button
+            android:id="@+id/appliedBtn"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/appliedicon"
+            android:text="APPLIED"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
         <TextView
             android:id="@+id/MessHead1"
             android:layout_width="231dp"
@@ -61,52 +80,43 @@
             app:layout_constraintVertical_bias="0.021" />
 
         <Button
-            android:id="@+id/AppliedBtn"
-            android:layout_width="75dp"
-            android:layout_height="75dp"
+            android:id="@+id/ApprovedBtn1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:layout_marginBottom="8dp"
             android:layout_marginEnd="8dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
-            android:background="@drawable/appliedicon"
-            android:text="APPLIED"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/ApprovedBtn"
-            app:layout_constraintHorizontal_bias="0.25"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.601" />
-
-        <Button
-            android:id="@+id/ApprovedBtn"
-            android:layout_width="75dp"
-            android:layout_height="75dp"
-            android:layout_marginBottom="8dp"
-            android:layout_marginEnd="28dp"
+            android:layout_marginLeft="108dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="108dp"
             android:layout_marginTop="8dp"
             android:background="@drawable/approvedicon"
             android:text="APPROVED"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/RejectedBtn"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.601" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.792"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <Button
-            android:id="@+id/RejectedBtn"
-            android:layout_width="75dp"
-            android:layout_height="75dp"
+            android:id="@+id/RejectedBtn1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:layout_marginBottom="8dp"
-            android:layout_marginEnd="16dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="28dp"
+            android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:background="@drawable/rejectedicon"
             android:text="REJECTED"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.552"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.601" />
+            app:layout_constraintVertical_bias="0.885" />
 
         <Button
             android:id="@+id/ApplyBtn1"
@@ -129,7 +139,7 @@
             app:layout_constraintHorizontal_bias="0.496"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.395" />
+            app:layout_constraintVertical_bias="0.215" />
 
     </android.support.constraint.ConstraintLayout>
 
