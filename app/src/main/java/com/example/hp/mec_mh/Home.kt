@@ -13,7 +13,6 @@ class Home : AppCompatActivity() {
     lateinit var profilebutton:Button
     lateinit var contactbutton:Button
     lateinit var logoutbutton:Button
-    lateinit var back:Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
@@ -21,7 +20,6 @@ class Home : AppCompatActivity() {
         profilebutton = findViewById(R.id.Profilel)
         contactbutton = findViewById(R.id.Contactsl)
         logoutbutton = findViewById(R.id.logout)
-        back = findViewById(R.id.BACK)
 
         messbutton.setOnClickListener({
             var inte:Intent
@@ -37,9 +35,6 @@ class Home : AppCompatActivity() {
             var inte:Intent
             inte = Intent(this, Contacts::class.java)
             startActivity(inte);
-        })
-        back.setOnClickListener({
-            this.finish()
         })
         logoutbutton.setOnClickListener({
             this.finish()
